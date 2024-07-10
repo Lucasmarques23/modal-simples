@@ -1,0 +1,39 @@
+dialog {
+    display: none;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+dialog:target {
+    display: block;
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close button {
+    height: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.open-modal{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.open-modal a {
+    text-decoration: none;
+    color: black;
+}
+
+.close a {
+    text-decoration: none;
+    color: black;
+}
